@@ -9,15 +9,30 @@
   background-color: var(--accent-color);
   color: var(--main-white-color);
 }
+
+.portfolio{
+  padding: 94px 0;
+}
+.portfolio-list{
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+.portfolio-image{
+  margin-bottom: 20px;
+}
 .portfolio-headline {
   color: var(--headline-black-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
 }
 .portfolio-text {
+  display: inline-block;
   font-size: 16px;
   line-height: 1.9;
+
+  margin-bottom: 20px;
 }
