@@ -1,5 +1,6 @@
 /* --------------------- hero ------------------ */
 .section-hero{
+  background-color: #2F303A;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -15,8 +16,11 @@
   text-transform: uppercase;
    margin-bottom: 30px;
 
-   background-color: antiquewhite;
+   
 }
+
+
+
 
 /* -------------------section-------------------- */
 
@@ -31,7 +35,21 @@
 /*---------------------особливості------------------  */
 .features{
   padding: 94px 0;
+  
 }
+.features-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .features-item:not(:last-of-type){
+  margin-right: 30px;
+} */
+
+.features-item{
+  width: 270px;
+}
+
 .features-title {
   color: var(--headline-black-color);
   font-weight: 700;
@@ -49,10 +67,25 @@
 /* ----------------чим ми займаємося-----------------  */
 .work{
   padding-bottom: 94px;
+  text-align: center;
+}
+.work-list{
+  display: flex;
+  justify-content: space-between;
 }
 /* -------------- Наша команда --------------- */
 .team{
+  background-color: #F5F4FA;
   padding: 94px 0;
+  text-align: center;
+}
+.team-list{
+  display: flex;
+  justify-content: space-between;
+}
+.team-item{
+  background-color: #fff;
+  text-align: center;
 }
 .team-photo{
   margin-bottom: 30px;

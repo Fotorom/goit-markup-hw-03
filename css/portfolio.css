@@ -1,9 +1,22 @@
 /* ------------------- портфолио------------------- */
+
+.filter-list{
+  display: flex;
+  justify-content: center;
+}
 .btn-filter {
   background-color: var(--btn-filter-bcg);
   color: var(--headline-black-color);
   border: none;
-}
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.2;
+  padding: 6px 22px;
+  border-radius: 4px;
+  }
+  .btn-item:not(:last-of-type){
+    margin-right: 6px;
+  }
 .btn-filter:hover,
 .btn-filter:focus {
   background-color: var(--accent-color);
@@ -13,9 +26,18 @@
 .portfolio{
   padding: 94px 0;
 }
+.portfolio-container{
+  margin: -15px;
+}
 .portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
   padding-top: 50px;
   padding-bottom: 94px;
+  
+}
+.portfolio-item{
+  margin: 15px;
 }
 .portfolio-image{
   margin-bottom: 20px;
